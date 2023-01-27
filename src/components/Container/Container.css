@@ -1,0 +1,86 @@
+.wrapper {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.foto {
+  width: 120px;
+  margin-left: 40px;
+  border-radius: 100px;
+}
+
+.icono {
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 30px;
+}
+
+.about-area,
+.services-area,
+.portfolio-area,
+.contact-area {
+  height: 100vh;
+}
+.text-content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 90px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 5px 10px #000;
+}
+
+.side-navbar {
+  height: 100%;
+  width: 248px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.items {
+  padding: 40px 10px 10px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+.side-navbar a:hover {
+  color: wheat;
+}
+.content-area {
+  margin-left: 230px;
+  padding: 0 10px;
+}
+#about {
+  background: darkkhaki;
+}
+#services {
+  background: coral;
+}
+#portfolio {
+  background: blue;
+}
+#contact {
+  background: darkkhaki;
+}
+html {
+  scroll-behavior: smooth;
+}
