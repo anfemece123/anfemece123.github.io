@@ -20,11 +20,17 @@
 .cover-container > h1 {
   color: wheat;
   font-size: 100px;
+  letter-spacing: -5px;
+}
+.cover-container > h1:after {
+  left: 10px;
+  top: 5px;
+  color: rgba(255, 0, 0, 0.5);
 }
 .cover-container > p {
   margin-top: 8px;
-  color: white;
-  font-size: 32px;
+  color: #e5e7e9;
+  font-size: 30px;
 }
 @media screen and (max-width: 768px) {
   .cover-container {

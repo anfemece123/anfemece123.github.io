@@ -1,6 +1,7 @@
 .wrapper {
-  width: 1300px;
-  margin: 0 auto;
+  position: absolute;
+  width: 1288px;
+  margin: 0 238px;
 }
 
 .foto {
@@ -23,8 +24,6 @@
 }
 .text-content h2 {
   text-transform: uppercase;
-  text-align: center;
-  padding-top: 20%;
   font-size: 90px;
   margin: 0;
   color: #fff;
@@ -38,18 +37,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
-    radial-gradient(
-        at top center,
-        rgba(255, 255, 255, 0.4) 0%,
-        rgba(0, 0, 0, 0.4) 120%
-      )
-      #989898;
-  background-blend-mode: multiply, multiply;
+  background: #181818;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -66,21 +54,42 @@
   color: wheat;
 }
 .content-area {
-  margin-left: 230px;
+  /* margin-left: 230px; */
   padding: 0 10px;
 }
-#about {
-  background: darkkhaki;
-}
-#services {
-  background: coral;
-}
-#portfolio {
-  background: blue;
-}
+#about,
+#services,
+#portfolio,
 #contact {
-  background: darkkhaki;
+  background: #1d1d1d;
 }
+
 html {
   scroll-behavior: smooth;
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    margin: 0 0;
+  }
+  .about-area,
+  .services-area,
+  .portfolio-area,
+  .contact-area {
+    height: 70vh;
+  }
+  .side-navbar {
+    height: 0;
+    width: 0;
+  }
+  .content-area {
+    align-items: center;
+    padding: 0 0;
+  }
+  .about-area {
+    align-items: center;
+  }
 }

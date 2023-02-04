@@ -1,0 +1,47 @@
+.containerAbout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+.textContent {
+  margin: 10%;
+}
+.textContent h2 {
+  margin-bottom: 20px;
+  color: wheat;
+  font-size: 60px;
+  text-align: left;
+}
+.textContent p {
+  margin-top: 8px;
+  color: white;
+}
+.video2 {
+  width: 600px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .containerAbout {
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .textContent h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .textContent p {
+    font-size: 10px;
+  }
+  .video2 {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .videoContent {
+    display: flex;
+    justify-content: center;
+  }
+}

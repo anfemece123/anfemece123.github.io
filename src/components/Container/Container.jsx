@@ -1,10 +1,12 @@
 import React from "react";
 import Foto from "../../iconos/Foto.JPG";
-import Cover from "../Home/Home";
+import Home from "../Home/Home";
 import gitHub from "../../iconos/github.png";
 import linkedIn from "../../iconos/linkedIn.png";
 import vimeo from "../../iconos/vimeo.png";
 import "./Container.css";
+import About from "../About/About";
+import Experience from "../Experience/Experience";
 
 export default function Container() {
   return (
@@ -18,7 +20,7 @@ export default function Container() {
           About
         </a>
         <a className="items" href="#services">
-          services
+          Experience and education
         </a>
         <a className="items" href="#portfolio">
           Portfolio
@@ -31,13 +33,18 @@ export default function Container() {
             href="https://www.linkedin.com/in/andres-felipe-melo-ceron-34a47810a/"
             target="_blank"
           >
-            <img className="icono" rel="stylesheet" src={linkedIn} />
+            <img
+              className="icono"
+              alt="Linkedin"
+              rel="stylesheet"
+              src={linkedIn}
+            />
           </a>
           <a href="https://github.com/anfemece123" target="_blank">
-            <img className="icono" rel="stylesheet" src={gitHub} />
+            <img className="icono" rel="stylesheet" alt="github" src={gitHub} />
           </a>
           <a href="https://vimeo.com/790179119" target="_blank">
-            <img className="icono" rel="stylesheet" src={vimeo} />
+            <img className="icono" rel="stylesheet" alt="vimeo" src={vimeo} />
           </a>
         </div>
       </div>
@@ -46,17 +53,17 @@ export default function Container() {
         <div className="wrapper">
           <div className="banner" id="home">
             <div className="text-content">
-              <Cover />
+              <Home />
             </div>
           </div>
           <div id="about" className="about-area">
             <div className="text-content">
-              <h2> About</h2>
+              <About />
             </div>
           </div>
           <div id="services" className="services-area">
             <div className="text-content">
-              <h2> services</h2>
+              <Experience />
             </div>
           </div>
           <div id="portfolio" className="portfolio-area">
