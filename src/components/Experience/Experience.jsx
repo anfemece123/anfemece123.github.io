@@ -12,6 +12,7 @@ import redux from "../../iconos/redux.ico";
 import git from "../../iconos/git.ico";
 import visual from "../../iconos/visual.ico";
 import tailwind from "../../iconos/tailwind.png";
+import CV from "../../media/CV.pdf";
 
 export default function Experience() {
   return (
@@ -72,6 +73,9 @@ export default function Experience() {
         </p>
         <p>applications including full front end design. This includes brand</p>
         <p>identity, graphics and illustrations.</p>
+        <a href={CV} download="CV Andres Felipe Melo">
+          <p> descarga mi CV</p>
+        </a>
       </div>
     </div>
   );

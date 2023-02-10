@@ -7,6 +7,7 @@ import vimeo from "../../iconos/vimeo.png";
 import "./Container.css";
 import About from "../About/About";
 import Experience from "../Experience/Experience";
+import Proyects from "../Proyects/Proyects";
 
 export default function Container() {
   return (
@@ -23,7 +24,7 @@ export default function Container() {
           Experience and education
         </a>
         <a className="items" href="#portfolio">
-          Portfolio
+          Projects
         </a>
         <a className="items" href="#contact">
           Contact
@@ -68,7 +69,9 @@ export default function Container() {
           </div>
           <div id="portfolio" className="portfolio-area">
             <div className="text-content">
-              <h2> Portfolio</h2>
+              <h2>
+                <Proyects />
+              </h2>
             </div>
           </div>
           <div id="contact" className="contact-area">
