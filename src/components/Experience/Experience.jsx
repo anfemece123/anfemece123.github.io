@@ -12,11 +12,16 @@ import redux from "../../iconos/redux.ico";
 import git from "../../iconos/git.ico";
 import visual from "../../iconos/visual.ico";
 import tailwind from "../../iconos/tailwind.png";
-import CV from "../../media/CV.pdf";
 
 export default function Experience() {
   return (
     <div className="container">
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous"
+      />
       <div className="logos">
         <img src={javaScriptIco} alt="javascriptico" />
         <img src={nodeIco} alt="nodeIco" />
@@ -33,49 +38,48 @@ export default function Experience() {
       </div>
 
       <div className="containerExperience">
-        <h2>Experience</h2>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
+        <h2>Experiencia</h2>
+        <h3>INDOMET ingenieria y seguridad (2 años)</h3>
+        <h3>CARGO: AUXILIAR CONTABLE</h3>
+        <h3>Funciones:</h3>
+        <p>🔸Actividades relacionadas al aspecto contable</p>
+        <p>🔸Conciliaciones bancarias</p>
+        <p>🔸Manejo de caja menor</p>
+        <p>🔸Pago de Nomina</p>
+        <br />
+        <h3>CORPORACION AUTONOMA DE NARIÑO (1 año)</h3>
+        <h3>CARGO: AUXILIAR CONTABLE</h3>
+        <h3>Funciones:</h3>
         <p>
-          design from the future. I am experienced in developing web and desktop
+          Prestación de servicios de apoyo a la gestión como tecnólogo en el
+          área de economía, administración, contaduría y afines para brindar
+          apoyo de las funciones desarrolladas en la subdirección administrativa
+          y financieras.
         </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
-        <p>
-          design from the future. I am experienced in developing web and desktop
-        </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
-        <p>
-          design from the future. I am experienced in developing web and desktop
-        </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
       </div>
       <div className="containerEducation">
-        <h2>Education</h2>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
+        <h2>Educacion</h2>
+        <h3>INSTITUTO HENRY</h3>
+        <h3>FULL-STACK WEB DEVELOP</h3>
         <p>
-          design from the future. I am experienced in developing web and desktop
+          Realice mis estudios de desarrollador full stack Lenguajes de
+          programación como: <br />
+          🔹 HTML, CSS, Tailwind css, Bootstrap .<br />
+          🔹JavaScript. <br />
+          🔹 React, React Native, Redux Toolkid. <br />
+          🔹 NodeJS con Express . <br />
+          🔹 Sequelize PostgreSQL. <br />
+          Uso de metodologías agiles como : <br />
+          🔸 SCRUM <br />
+          🔸 Trello <br />
+          Además de herramientas como: <br />
+          🔹 Git | Github. <br />
+          🔹 Android Studio <br />
+          🔹 Postman.
         </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
-        <p>
-          design from the future. I am experienced in developing web and desktop
-        </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
-        <p>
-          design from the future. I am experienced in developing web and desktop
-        </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
-        <a href={CV} download="CV Andres Felipe Melo">
-          <p> descarga mi CV</p>
-        </a>
+        <br />
+        <h3>UNIVERSIDAD CESMAG</h3>
+        <p>Contador publico</p>
       </div>
     </div>
   );

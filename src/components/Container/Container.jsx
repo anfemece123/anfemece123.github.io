@@ -8,6 +8,7 @@ import "./Container.css";
 import About from "../About/About";
 import Experience from "../Experience/Experience";
 import Proyects from "../Proyects/Proyects";
+import { Contact } from "../Contact/Contact";
 
 export default function Container() {
   return (
@@ -18,16 +19,16 @@ export default function Container() {
           Home
         </a>
         <a className="items" href="#about">
-          About
+          Sobre mi
         </a>
         <a className="items" href="#services">
-          Experience and education
+          experiencia y educacion
         </a>
         <a className="items" href="#portfolio">
-          Projects
+          Proyectos
         </a>
         <a className="items" href="#contact">
-          Contact
+          Contacto
         </a>
         <div className="iconos">
           <a
@@ -69,14 +70,12 @@ export default function Container() {
           </div>
           <div id="portfolio" className="portfolio-area">
             <div className="text-content">
-              <h2>
-                <Proyects />
-              </h2>
+              <Proyects />
             </div>
           </div>
           <div id="contact" className="contact-area">
             <div className="text-content">
-              <h2> Contact</h2>
+              <Contact />
             </div>
           </div>
         </div>

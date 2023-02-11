@@ -6,23 +6,29 @@ export default function About() {
   return (
     <div className="containerAbout">
       <div className="textContent">
-        <h2> About me</h2>
-        <p>I'm Andres, a development sofware full stack.</p>
-        <p>I want find my first oportunity laboral in progration</p>
-        <p>I am a person very dedication, responsable </p>
-        <p>and passionate for the tecnology .</p>
-        <p>Always have </p>
+        <h2> Sobre mi</h2>
         <p>
-          design from the future. I am experienced in developing web and desktop
+          ¡Hola a todos! Me presento, soy Andres Melo, un desarrollador de
+          software full Stack . Estoy en búsqueda de mi primera oportunidad
+          laboral para poder dedicarme al mundo de la tecnología que tanto me
+          apasiona y así poder demostrar todo lo que puedo llegar a lograr con
+          mucho esfuerzo y dedicación.{" "}
         </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
-        <p>I'm Lokkee, a passionate freelancer bringing you programming and</p>
+        <br />
+
         <p>
-          design from the future. I am experienced in developing web and desktop
+          Soy profesional con experiencia en el área de la contabilidad en el
+          área publica y llevando a cabo tareas de mucha responsabilidad.
+          Siempre fui muy apasionado por el mundo de la tecnología, ahora estoy
+          buscando un cambio profesional un año después de mucho estudio,
+          trabajo y dedicación pero con la satisfacción de que estoy haciendo lo
+          que en verdad me apasiona.
         </p>
-        <p>applications including full front end design. This includes brand</p>
-        <p>identity, graphics and illustrations.</p>
+        <p>
+          Estoy buscando una empresa en la que pueda aprender y crecer, ya que
+          no tengo miedo a enfrentarme a nuevos retos o aprender otros lenguajes
+          de programación que me permitan seguir mejorando .
+        </p>
       </div>
       <div className="videoContent">
         <video className="video2" src={video} autoPlay loop muted />

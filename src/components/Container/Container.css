@@ -15,6 +15,9 @@
   margin-left: 30px;
   width: 30px;
 }
+.icono:hover {
+  width: 32px;
+}
 
 .about-area,
 .services-area,

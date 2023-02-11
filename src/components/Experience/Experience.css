@@ -7,6 +7,9 @@
   margin-top: 8px;
   color: white;
 }
+.container h3 {
+  color: wheat;
+}
 .containerExperience,
 .containerEducation {
   margin: 10%;
@@ -32,7 +35,7 @@
 }
 .logos > img {
   width: 60px;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 20px;
 }
 .container h2 {
