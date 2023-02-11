@@ -1,7 +1,7 @@
-.container {
+/* .container {
   height: 100vh;
   width: 100%;
-}
+} */
 
 ul {
   list-style: none;
@@ -9,7 +9,7 @@ ul {
 }
 
 .logo {
-  /* margin-top: 20px; */
+  padding-top: 30px;
   margin-bottom: 20px;
   color: wheat;
   font-size: 60px;
@@ -17,8 +17,9 @@ ul {
 }
 
 .contact-wrapper {
-  margin-left: 60px;
-  width: 90%;
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 80%;
   height: 70vh;
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }

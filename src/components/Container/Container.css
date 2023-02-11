@@ -66,6 +66,9 @@
 #contact {
   background: #1d1d1d;
 }
+.contact-area {
+  justify-content: center;
+}
 
 html {
   scroll-behavior: smooth;

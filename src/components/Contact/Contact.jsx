@@ -11,7 +11,7 @@ export const Contact = () => {
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous"
       />
-      <h1 class="logo">Contacto</h1>
+      <h3 className="logo">Contacto</h3>
       <div class="contact-wrapper animated bounceInUp">
         <div class="contact-form">
           <h3>Escribeme</h3>

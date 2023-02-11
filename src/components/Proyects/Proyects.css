@@ -6,8 +6,8 @@
   margin-top: 10px;
 }
 .contenedor-img {
-  width: 600px;
-  margin: 10px;
+  width: 500px;
+  margin: 8px;
   /* height: 200px; */
   float: left;
   overflow: hidden;
@@ -19,7 +19,7 @@
 }
 .contenedor-img .mascara,
 .contenedor-img .contenido {
-  width: 600px;
+  width: 500px;
   height: 100%;
   position: absolute;
   overflow: hidden;
