@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="containerAbout">
       <div className="textContent">
-        <h2> Sobre mi</h2>
+        <h2> SOBRE MI</h2>
         <p>
           ¡Hola a todos! Me presento, soy Andres Melo, un desarrollador de
           software full Stack . Estoy en búsqueda de mi primera oportunidad

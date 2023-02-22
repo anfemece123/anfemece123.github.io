@@ -104,3 +104,44 @@
   transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
   transform: translateY(0px);
 }
+@media screen and (max-width: 768px) {
+  .contenedor-img {
+    width: 350px;
+    margin: 8px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #fff;
+    border-radius: 15px;
+  }
+  .contenedor-img .mascara,
+  .contenedor-img .contenido {
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
+  .contenedor-img h2 {
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+    position: relative;
+    font-size: 10px;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.9);
+    margin-top: 0px;
+  }
+  .contenedor-img p {
+    font-size: 10px;
+    text-align: justify;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 10px;
+    text-align: center;
+  }
+}

@@ -11,7 +11,7 @@ export const Contact = () => {
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous"
       />
-      <h3 className="logo">Contacto</h3>
+      <h2 className="logo">Contacto</h2>
       <div class="contact-wrapper animated bounceInUp">
         <div class="contact-form">
           <h3>Escribeme</h3>
@@ -59,10 +59,10 @@ export const Contact = () => {
               <i class="fas fa-envelope-open-text"></i>{" "}
               andresfelipemelo18@gmail.com
             </li>
+            <a href={CV} download="CV Andres Felipe Melo">
+              <button className="cv-button"> Descargar cv</button>
+            </a>
           </ul>
-          <a href={CV} download="CV Andres Felipe Melo">
-            <button className="cv-button"> Descargar cv</button>
-          </a>
           <div className="list-icons">
             <ul>
               <a

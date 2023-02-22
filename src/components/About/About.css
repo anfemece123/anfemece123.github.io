@@ -8,11 +8,12 @@
 .textContent {
   margin: 10%;
 }
-.textContent h2 {
+.textContent h1 {
   margin-bottom: 20px;
   color: wheat;
   font-size: 60px;
   text-align: left;
+  /* text-align: center; */
 }
 .textContent p {
   font-size: 15px;
@@ -31,8 +32,8 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .textContent h2 {
-    font-size: 25px;
+  .textContent h1 {
+    font-size: 30px;
     text-align: center;
   }
   .textContent p {
