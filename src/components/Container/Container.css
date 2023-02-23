@@ -100,7 +100,9 @@ html {
   .services-area {
     height: 62vh;
   }
-
+  .contact-area {
+    height: 120vh;
+  }
   .side-navbar {
     height: 0;
     width: 0;
