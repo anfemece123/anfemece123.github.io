@@ -95,14 +95,12 @@ html {
   }
   .about-area,
   .portfolio-area {
-    height: 55vh;
+    height: 63vh;
   }
   .services-area {
-    height: 53vh;
+    height: 62vh;
   }
-  .contact-area {
-    height: 95.5vh;
-  }
+
   .side-navbar {
     height: 0;
     width: 0;

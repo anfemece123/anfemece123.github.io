@@ -6,7 +6,7 @@ import pokemon from "../../media/pokemon.gif";
 const Proyects = () => {
   return (
     <div className="proyects-container">
-      <h2> Projets</h2>
+      <h2> Proyectos</h2>
       <div class="contenedor-img ejemplo-1">
         <img src={ecommerce} />
         <div class="mascara">
